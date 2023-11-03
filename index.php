@@ -12,7 +12,8 @@
     if($_SESSION['ProjectSeLogin']){
         $url = "src/home/index.php";
     }else{
-        $url = "src/login/index.php";
+        // $url = "src/login/index.php";
+        $url = "src/home/index.php";
     }
 ?>
 <!doctype html>
@@ -21,7 +22,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="img/icone.png">
-    <title>BK - Manaus</title>
+    <title>Mohatron - Vagas</title>
     <?php
     include("lib/header.php");
     ?>
