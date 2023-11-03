@@ -149,7 +149,8 @@ include("{$_SERVER['DOCUMENT_ROOT']}/bkManaus/lib/includes.php");
         <div class="card card-container">
             <div>
                 <h3 class="w-100" style="text-align:center">Painel de Controle</h3>
-                <img id="profile-img" class="profile-img-card" src="img/logo.svg" />
+                <h3 class="w-100" style="text-align:center; color:green; font-size:100px">V</h3>
+                <!-- <img id="profile-img" class="profile-img-card" src="img/logo.svg" /> -->
             </div>
             <div class="form-floating mb-2">
                 <input type="text" class="form-control" id="login" placeholder="Digite seu login" required autofocus>
